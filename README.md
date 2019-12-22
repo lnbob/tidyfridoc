@@ -12,4 +12,4 @@
 
 ---
 
-<center><h5>©2019 TidyFriday</h5></center>
+<h5 align="center">©2019 TidyFriday</h5>
