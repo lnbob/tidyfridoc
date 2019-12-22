@@ -1,0 +1,23 @@
+Package: tidyfridoc
+Type: Package
+Title: Creating Pretty Documents from R Markdown
+Version: 0.3.1
+Date: 2019-11-22
+Authors@R: person(given = "Zhenxing", family = "Cheng", email = "czxjnu@163.com", role = c("aut", "cre"))
+Description: Creating tiny yet beautiful documents and vignettes from R
+    Markdown. The package provides the 'html_pretty' output format as an
+    alternative to the 'html_document' and 'html_vignette' engines that
+    convert R Markdown into HTML pages. Various themes and syntax highlight
+    styles are supported.
+Imports:
+    rmarkdown (>= 1.17)
+Suggests:
+    knitr, KernSmooth
+SystemRequirements: pandoc (>= 1.12.3)
+VignetteBuilder: knitr, rmarkdown
+URL: https://github.com/TidyFriday/tidyfridoc
+BugReports: https://github.com/TidyFriday/tidyfridoc/issues
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.1

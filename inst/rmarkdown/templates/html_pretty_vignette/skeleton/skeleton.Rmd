@@ -1,0 +1,19 @@
+---
+title: "Project Name"
+author: "TidyFriday Project"
+date: "`r Sys.Date()`"
+output:
+  tidyfridoc::html_pretty:
+    theme: hpstr
+    highlight: github
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Write the contents here!
+
+---
+
+<center><h5>©2019 TidyFriday</h5></center>
